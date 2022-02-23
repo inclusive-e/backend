@@ -1,0 +1,16 @@
+node_modules
+build
+.editorconfig
+yarn-error.log
+
+.git
+.gitignore
+.vscode/
+.env
+.env.example
+.idea
+**/*.env
+Dockerfile
+Makefile
+README.md
+.github
