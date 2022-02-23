@@ -8,12 +8,12 @@
   "license": "ISC",
   "scripts": {
     "start": "nodemon --inspect --signal SIGTERM",
-    "run-migration": "prisma migrate dev",
-    "run-seeding": "prisma db seed --preview-feature",
+    "migration": "prisma migrate dev",
+    "seeding": "prisma db seed --preview-feature",
     "format": "prisma format",
     "clean-build": "npm tsc --build --clean",
     "build-prod": "npm tsc --build tsconfig.prod.json",
-    "run-prod": "npm clean-build && npm build-prod && node ./build/app.js",
+    "prod": "npm clean-build && npm build-prod && node ./build/app.js",
     "tsc": "tsc"
   },
   "dependencies": {
