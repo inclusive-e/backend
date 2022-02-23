@@ -11,6 +11,8 @@ In order to run the source, you need to install all these services:
 - [Postgresql](https://www.postgresql.org/download/)
 - [NodeJS](https://nodejs.org/en/download/)
 - [Typescript](https://www.typescriptlang.org/)
+- [Prisma](https://www.prisma.io/docs/getting-started)
+- [Apollo Server](https://www.apollographql.com/docs/apollo-server/)
 
 ## How to run the source
 
